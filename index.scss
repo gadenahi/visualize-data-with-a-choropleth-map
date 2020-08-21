@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #title {
+      font-size: 20px;
+    }
+    #description {
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;    
+    }
+      .js_toolTip {
+      display: none;
+      width: 15em;
+      position: absolute;
+      background-color: gray;
+      color: #fff;
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+  .graph {
+      display: block;
+      margin: 0 auto; 
+  }
